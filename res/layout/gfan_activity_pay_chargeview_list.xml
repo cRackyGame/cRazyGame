@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@drawable/gfan_bg_border" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_bar_pay" android:layout_alignParentTop="true" layout="@layout/gfan_top_bar_pay" />
+    <ListView android:id="@id/payment_charge_lv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@color/white" android:layout_below="@id/top_bar_pay" />
+</RelativeLayout>

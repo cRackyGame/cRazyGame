@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:id="@id/rootLayout"
+    android1:layout_width="fill_parent"
+    android1:layout_height="fill_parent" >
+
+    <com.happyelements.otaku.VistaView
+        android1:id="@id/vistaView"
+        android1:layout_width="fill_parent"
+        android1:layout_height="fill_parent" />
+
+    <ProgressBar
+        android1:id="@id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="152.0dip" />
+
+    <SeekBar
+        android1:id="@id/seekBar1"
+        android1:layout_width="fill_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_alignParentLeft="true" />
+
+    <TextView
+        android1:id="@id/textView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_above="@id/seekBar1"
+        android1:layout_centerHorizontal="true"
+        android1:text="TextView" />
+
+</RelativeLayout>

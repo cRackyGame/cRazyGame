@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/phonecard_scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/phonecard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.mappn.sdk.pay.weight.TitleSpinner android:id="@id/phonecard_cardspinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+        <com.mappn.sdk.pay.weight.TitleSpinner android:id="@id/phonecard_paynumspinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+        <EditText android:id="@id/phonecard_edittext_cardnum" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+        <EditText android:id="@id/phonecard_edittext_cardpsd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+        <TextView android:id="@id/phonecard_textview_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/text_orange" android:id="@id/phonecard_btn_ok" android:background="@drawable/gfan_selector_btn_orange" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/umeng_xp_rootId"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffececec" >
+
+    <include
+        android:id="@id/umeng_xp_banner"
+        layout="@layout/umeng_xp_component_focus_banner" />
+
+    <RelativeLayout
+        android:id="@id/umeng_xp_detail0"
+        android:layout_width="fill_parent"
+        android:layout_height="140.0dip"
+        android:layout_above="@id/umeng_xp_bottom"
+        android:layout_below="@id/umeng_xp_banner"
+        android:background="#ffececec" >
+
+        <include layout="@layout/umeng_xp_component_foucused_app" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@id/umeng_xp_list"
+        android:layout_width="fill_parent"
+        android:layout_height="130.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55.0dip"
+        android:background="#ffececec"
+        android:divider="#00000000"
+        android:dividerHeight="0.0dip"
+        android:stackFromBottom="true" />
+
+    <include
+        android:id="@id/umeng_xp_bottom"
+        layout="@layout/umeng_xp_component_back_bottom" />
+
+</RelativeLayout>
